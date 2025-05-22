@@ -65,12 +65,12 @@
 	$auth = new authenticate();
 	if($auth->verify($_POST['uname'],$_POST['pass']) == true) {
 
-		***REMOVED***
-        ***REMOVED***
-        ***REMOVED***
-        ***REMOVED***
-        ***REMOVED***
-        ***REMOVED***
+		// $secret = "6Le4TYEoAAAAAP4opAs1h5pBaIuwgDfXk1yEf915";
+        // $ip = $_SERVER['REMOTE_ADDR'];
+        // $captcha = $_POST['g-recaptcha-response'];
+        // $rsp  = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$captcha&remoteip$ip";
+        // $data = file_get_contents($rsp);
+        // $arr = json_decode($rsp,TRUE);
 
 		
 		$URL = $HTTP_REFERER . "index.php";
